@@ -1,4 +1,4 @@
-#include "DKQRCodeReader.h" // https://github.com/alvarowolfx/ESP32QRCodeReader Source codes were taken from here and adapted to Deneyap Kart.
+#include "DeneyapKartQRCodeReader.h" // https://github.com/alvarowolfx/ESP32QRCodeReader Source codes were taken from here and adapted to Deneyap Kart.
 
 #include "quirc/quirc.h"
 #include "Arduino.h"
