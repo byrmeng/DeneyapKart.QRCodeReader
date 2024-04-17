@@ -21,7 +21,7 @@ struct CameraPins
   int PCLK_GPIO_NUM;
 };
 
-#define CAMERA_MODEL_DENEYAP_KART \
+#define DK_Kamera \
   {                             \
     .PWDN_GPIO_NUM = -1,        \
     .RESET_GPIO_NUM = -1,       \
