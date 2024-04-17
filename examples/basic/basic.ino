@@ -1,6 +1,6 @@
 #include <DeneyapKartQRCodeReader.h>   // https://github.com/alvarowolfx/ESP32QRCodeReader Source codes were taken from here and adapted to Deneyap Kart.
 
-DKQRCodeReader reader(CAMERA_MODEL_DENEYAP_KART);
+DKQRCodeReader reader(DK_Kamera);
 
 void onQrCodeTask(void *pvParameters){
   struct QRCodeData qrCodeData;
